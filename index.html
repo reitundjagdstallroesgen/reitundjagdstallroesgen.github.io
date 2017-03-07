@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html lang="de"> <!legt Sprache auf deutsch fest>
+
+<head>
+    <meta charset="utf-8"><!Zeichencodierung / Zeichensatz festlegen>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!meta Tag um die Seite auf Tablets und Smartphones angepasst darzustellen>
+    
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon1.ico"><!hier wird das von mir erstellte Logo in der Registerkarte eingebunden>
+
+    <title>Reit- und Jagdstall Rösgen</title>
+
+<!--------------------------------------------------------------------------------CSS------------------------->
+    <link href="bootstrap.min.css" rel="stylesheet"><!hier wird die Bootstrap Vorlage eingebunden>
+    <link href="carousel.css" rel="stylesheet"><!CSS Datei für die Bootstrap Vorlage 'Karussel'>
+</head>
+    
+    
+    
+
+<!--------------------------------------------------------------------------------Navbar----------------------->
+<body>
+    <div class="navbar-wrapper">
+        <div class="container">
+
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Navigation ein-/ausblenden</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">Reit - und Jagdstall Rösgen</a>
+                        <!'Reit- und Jagdstall Rösgen ist mit der index.html Seite verlinkt um den Nutzer beim Anklicken stets auf die Startseite umzuleiten.>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+        
+                            <li><a href="ueber.html">Über</a></li>
+                            <li><a href="aktuelles.html">Aktuelles</a></li>
+                            <li><a href="galerie.html">Galerie</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+    
+
+
+<!--------------------------------------------------------------------------------Karussel----------------------------->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Positionsanzeige -->
+        <ol class="carousel-indicators">
+            <!erzeugt die drei Punkte im Karussel>
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li><!class active erzeugt den Punkt unterhalb der Folie>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img class="first-slide" src="folie1.jpg" alt="Erste Folie"><!Hintergrundbild der ersten Folie>
+                
+            </div>
+            <div class="item">
+                <img class="second-slide" src="logo_folie.svg" alt="Zweite Folie"><!Hintergrundbild Folie 2>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <p>Du willst noch mehr über den Stall erfahren</p>
+                        <p>und einen Einblick in das bunte Geschehen bekommen?</p>
+                        <p>Dann bist du hier genau richtig </p>
+                        <p><a class="btn btn-lg btn-primary" href="galerie.html" role="button">Galerie erkunden &raquo;</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="third-slide" src="reitferien1.svg" alt="Dritte Folie">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <p><a class="btn btn-lg btn-primary" href="reitferien.html" role="button">mehr zu den Reitferien &raquo;</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!Erzeugt die Pfeile>
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span> </a>
+    </div>
+
+    
+    
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <div class="container marketing"> <!zentriert Inhalt der Website>
+
+
+<!-----------------------------------------------------------------------------------------------Spalten--------------------------->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 col-md-push-5">
+                <h2 class="featurette-heading">Das Glück der Erde liegt auf dem Rücken der Pferde! <span class="text-muted"></span></h2>
+                <p class="lead">Lerne unsere wunderbaren Schulpferde kennen.</p>
+                <p><a class="btn btn-lg btn-primary " href="album5.html" role="button">Los &raquo;</a></p>
+            </div>
+            <div class="col-md-5 col-md-pull-7">
+                <img class="featurette-image img-responsive center-block img-rounded" src="cisco.JPG" alt="Generisches Platzhalter-Bild">
+            </div>
+        </div>
+
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Hofturnier 2016 <span class="text-muted">Trotz tropischer Temperaturen ein voller Erfolg!</span></h2>
+                <p class="lead">Am 27. August 2016 richtete der Reit- und Jagdstall Rösgen endlich das von der Stallgemeinschaft lang ersehnte Hofturnier aus. Anders als bei den „offiziellen“ Turnieren, bei denen immer nur wenige Reiterinnen und Reiter starten, hat hier jeder die Chance sein Können unter Beweis zu stellen und zu zeigen wie gut er mit seinem Pferd zurechtkommt. </p>
+            </div>
+            <div class="col-md-5">
+                <a href="album2.html">
+                    <img class="featurette-image img-responsive center-block img-rounded" src="album2/38.jpg" alt="Generisches Platzhalter-Bild"></a>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 col-md-push-5">
+                <h2 class="featurette-heading">Theorie<span class="text-muted"> statt schlechtem Wetter ...</span></h2>
+                <p class="lead">Bisher hat uns sehr oft, besonders im Winter, das schlechte Wetter einen Strich durch die Rechnung gemacht. Dabei fällt auf, dass in diesen Phasen sehr viel wertvolles Wissen verloren geht.
+                    <br> Wie geht nochmal der Pferdeknoten?
+                    <br> Welches Putzzeug brauche ich wozu?
+                    <br>Aus diesem Grund wird ab April, wenn kein praktisches Reiten stattfinden kann, Theorie gemacht rund ums Thema Pferd.</p>
+            </div>
+            <div class="col-md-5 col-md-pull-7">
+                <img class="featurette-image img-responsive center-block img-rounded" src="buch.png" alt="Generisches Platzhalter-Bild">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Termine und Veranstaltungen 2017<span class="text-muted"></span></h2>
+                <p class="lead">Auch dieses Jahr gibt es eine Vielzahl an Veranstaltungen die du auf keinen Fall verpassen solltest.</p>
+            </div>
+            <div class="col-md-5">
+                <a href="aktuelles.html">
+                    <img class="featurette-image img-responsive center-block img-rounded" src="kalender.png" alt="Generisches Platzhalter-Bild"></a>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        
+        
+        
+        
+        
+<!----------------------------------------------------------------------------------------------Footer------------------------------------->
+        <footer>
+            <p class="pull-right"><a href="index.html">Zurück nach oben</a></p>
+            <p>&copy; Reit- und Jagdstall Rösgen <a href="kontakt.html">Impressum</a> &middot; </p>
+        </footer>
+
+    </div>
+
+
+
+<!-----------------------------------------------------------------------------------------------Java-script Dateien----------------------------->
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+    <!-- IE10-Anzeigefenster-Hack für Fehler auf Surface und Desktop-Windows-8 -->
+    
+</body>
+
+</html>

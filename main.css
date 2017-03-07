@@ -1,0 +1,49 @@
+
+.jumbotron p {
+    font-family: cursive;
+    
+}
+.jumbotron h1{
+    color:darkred;
+}
+
+.jumbotron h3{
+    font-family: cursive;
+}
+
+
+.row h2{
+ color: darkred
+}
+
+button,
+[role="button"] {
+    border: 3px solid;
+    border-color: darkred;
+    
+}
+
+.galerie img {
+    border: 3px solid ;
+    border-color: white;
+    
+}
+ul{
+    list-style: none;
+}
+
+.caption h3{
+    color: darkred;
+}
+
+
+img{
+    border: none;
+}
+.Liste ul{
+    list-style:disc;
+}
+
+footer{
+    margin-top: 35px;
+}

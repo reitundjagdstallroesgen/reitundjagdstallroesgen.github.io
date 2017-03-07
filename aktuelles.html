@@ -1,0 +1,88 @@
+<!Doctype html>
+<html lang="de"><!legt Sprache auf deutsch fest>
+
+<head>
+    <meta charset="utf-8"><!Zeichencodierung / Zeichensatz festlegen>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico"><!hier wird das Logo in der Registerkarte eingebunden>
+
+    <title>Reit- und Jagdstall Rösgen</title>
+
+<!-------------------------------------------------------------------------------CSS------------------------------>
+    <link href="bootstrap.min.css" rel="stylesheet"><!hier wird die Bootstrap Vorlage eingebunden>
+    <link href="carousel.css" rel="stylesheet"><!CSS Datei für die Bootstrap Vorlage 'Karussel'>
+    <link href="main.css" rel="stylesheet">
+    
+</head>
+    
+    
+<!------------------------------------------------------------------------------- NAVBAR -------------------------------->
+<body>
+
+    <div class="navbar-wrapper">
+        <div class="container">
+
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Navigation ein-/ausblenden</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">Reit - und Jagdstall Rösgen</a>
+                        <!'Reit- und Jagdstall Rösgen ist mit der index.html Seite verlinkt um den Nutzer beim Anklicken stehts auf die Startseite umzuleiten.>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="ueber.html">Über</a></li>
+                            <li class="active"><a href="aktuelles.html">Aktuelles</a></li>
+                            <li><a href="galerie.html">Galerie</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+
+
+<!---------------------------------------------------------------------JUMBOTRON ------------------------------------------------->
+    <div class="jumbotron">
+        <div class="container">
+            <br>
+            <h1>Aktuelles</h1><img src="dressur.svg" class="pull-right">
+            <p>Sie interessieren sich für aktuelle Veranstaltungen und Temine? Dann werfen Sie einen Bilck in unseren Kalender. Wir freuen uns Sie auf dem ein oder anderen Event anzutreffen. </p>
+        </div>
+    </div>
+
+
+<!-------------------------------------------------------------------Kalender------------------------------------------------------>
+    <div class="container marketing"><!Container um den Inhalt der Website zu zentrieren>
+        <iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=reitundjagdstallroesgen%40gmail.com&amp;color=%23A32929&amp;src=de.german%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=Europe%2FBerlin" style="border-width:0" width="900" height="600" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+ <!-------------------------------------------------------------------------------- FOOTER --------------------------------------->
+        <footer>
+            <p class="pull-right"><a href="aktuelles.html">Zurück nach oben</a></p>
+            <p>&copy; Reit- und Jagdstall Rösgen <a href="kontakt.html">Impressum</a> &middot; </p>
+        </footer>
+    </div>
+
+    
+
+<!----------------------------------------------------------------------------------------Java-script---------------------------------->
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+
+</html>
